@@ -7,6 +7,7 @@ on:
   schedule:
     - cron: '0 0 * * *'
     - cron: '0 15 * * *'
+workflow_dispatch: #수동 실행 활성화
 
 jobs:
   update_blog:
